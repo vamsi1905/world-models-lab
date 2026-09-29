@@ -16,11 +16,11 @@ World models from first principles, on free compute. Weeks 0–2 of a six-week p
    cd world-models-lab
    git init && git add . && git commit -m "Week 0-2 scaffold"
    git branch -M main
-   git remote add origin https://github.com/<you>/world-models-lab.git
+   git remote add origin https://github.com/vamsi1905/world-models-lab.git
    git push -u origin main
    ```
 2. In each notebook's first cell, set `REPO_URL` to your repo. (Search-and-replace `YOUR_GITHUB_USERNAME` across `notebooks/` once and commit.)
-3. Open a notebook in Colab: `https://colab.research.google.com/github/<you>/world-models-lab/blob/main/notebooks/00_othello_probe.ipynb`
+3. Open a notebook in Colab: `https://colab.research.google.com/github/vamsi1905/world-models-lab/blob/main/notebooks/00_othello_probe.ipynb`
 4. Runtime → Change runtime type → **T4 GPU**. Run all.
 
 Data and checkpoints go to `MyDrive/world-models-lab/`, so a disconnect costs minutes, not the evening. Every expensive cell checks for its output first and skips if it exists.
