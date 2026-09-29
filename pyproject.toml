@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wmlab"
+version = "0.1.0"
+description = "World models from first principles: Othello-GPT probes and a V/M/C World Model on CarRacing"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy", "torch", "matplotlib", "pillow", "cma",
+  "gymnasium[box2d]>=1.0", "imageio[ffmpeg]",
+]
+
+[tool.setuptools.packages.find]
+include = ["wmlab*"]
